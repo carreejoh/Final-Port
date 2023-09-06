@@ -1,0 +1,59 @@
+[
+  {
+    "title": "Code Spot",
+    "motto": "My complete MERN project",
+    "status": false,
+    "desc": "Code Spot is an online code editor which allows users to create and share code. Users can test their code online thanks to the ACE IDE, and instantly see the results in the output. Code Spot also allows users to create posts showcasing their code, aswell as a description of what it does. This code can then be viewed in an editor of it's own which allows other users to experience and test their code.",
+    "contribution": "I created all of Code Spot to solidify my MongoDB and JS skills, as well as try new technologies and libraries like ACE IDE. I'm currently transitioning the entire project from vanilla JS and Handlebars.js into React.",
+    "techstack": ["React", "Tailwind", "Mongo", "Mongoose", "Express", "Node", "Next"],
+    "pictures": ["/images/codelounge.png", "/images/codelounge.png"]
+  },
+  {
+    "title": "Tyrs Vault",
+    "motto": "My first collaborative project",
+    "status": true,
+    "desc": "Tyr's Vault is a gaming hub designed to allow users to showcase their games, add friends, and discover new titles.",
+    "contribution": "I was responsible for designing and creating the UI, aswell as choosing the entire ",
+    "techstack": [
+      "JavaScript",
+      "Fomantic",
+      "MySQL",
+      "Sequelize",
+      "Express",
+      "Node"
+    ],
+    "pictures": ["/images/tyrsvault.png", "/images/tyrsvaultsecond.png"]
+  },
+  {
+    "title": "Tech Blog",
+    "motto": "All about the SQL back-end",
+    "status": true,
+    "desc": "This tech blog was designed for users to post coding-related material. This project was my first introduction to Sequelize.js ODM, and interacting with MySQL. User's can post, edit, and delete their posts.",
+    "contribution": "This website was for an assignment in my schooling, and I was required to create the entire thing from scatch. The emphasis of the assignment was for students to fully grasp ODM's and MySQL.",
+    "techstack": [
+      "JavaScript",
+      "Fomantic",
+      "MySQL",
+      "Sequelize",
+      "Express",
+      "Node"
+    ],
+    "pictures": ["/images/techblog.png", "/images/techblogsecond.png"]
+  },
+  {
+    "title": "My Portfolio",
+    "motto": "My first collaborative project",
+    "status": true,
+    "desc": "Tyr's Vault is a gaming hub designed to allow users to showcase their games, add friends, and discover new titles.",
+    "contribution": "I was responsible for designing and creating the UI, aswell as choosing the entire ",
+    "techstack": [
+      "JavaScript",
+      "Fomantic",
+      "MySQL",
+      "Sequelize",
+      "Express",
+      "Node"
+    ],
+    "pictures": ["/images/tyrsvault.png", "/images/tyrsvaultsecond.png"]
+  }
+]
