@@ -8,7 +8,7 @@ function Projects() {
         <div className="grid grid-cols-12 gap-4 h-full pt-2 pb-2 pr-60 pl-60 mb-5">
           {/* Featured Project */}
           <div className="col-span-12 mt-6">
-            <h1 className="text-xl text-gray-500">Featured Project:</h1>
+            <h1 className="text-xl text-white">Featured Project:</h1>
           </div>
           <div className="col-span-12 h-96 flex justify-between bg-baseGray rounded-lg overflow-hidden shadow-purpleBoxShadow">
             <div className="w-[50%] flex-col justify-between">
@@ -54,7 +54,7 @@ function Projects() {
             </div>
           </div>
           <div className="col-span-12 mt-6">
-            <h1 className="text-xl text-gray-500">Other Projects:</h1>
+            <h1 className="text-xl text-white">Other Projects:</h1>
           </div>
           <div className="col-span-4 ">
             <ProjectCard

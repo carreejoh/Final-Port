@@ -12,9 +12,6 @@ function Header() {
             <Link href="/about">About</Link>
           </a>
           <a className="text-white text-md ml-3 hover:text-indigo-400 cursor-pointer">
-            <Link href="/skills">Skills</Link>
-          </a>
-          <a className="text-white text-md ml-3 hover:text-indigo-400 cursor-pointer">
             <Link href="/projects">Projects</Link>
           </a>
           <a className="text-white text-md ml-3 hover:text-indigo-400 cursor-pointer">
