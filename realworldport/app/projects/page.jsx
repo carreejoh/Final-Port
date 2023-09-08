@@ -22,7 +22,7 @@ function Projects() {
                   </h1>
                 </Link>
                 <p className="mt-4">
-                  My third collaborative effort and most recently released project. Find and follow your friends, share your pictures with the world, and explore what Crusaders has to offer!
+                  My third collaborative effort and favorite front-end project. Find and follow your friends, share your pictures with the world, and explore what Crusaders has to offer!
                 </p>
                 <div className="flex mt-4">
                   <img src="/react.svg" className="mr-2 h-8 w-8"></img>
@@ -111,7 +111,7 @@ function Projects() {
               link="portfolio"
               bgImg={"/images/myportfolio.PNG"}
               desc={
-                "My sixth portfolio. I just can't seem to get it quite right."
+                "My fifth, and most recent portfolio."
               }
               techStack={["React", "Tailwind", "Next"]}
             />
