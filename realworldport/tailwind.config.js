@@ -12,7 +12,10 @@ module.exports = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
         'rightAnimatedGradient': 'linear-gradient(-125deg,transparent 30%, #141517 30%, #141517 50%, transparent 50%)',
-        'leftAnimatedGradient': 'linear-gradient(55deg,transparent 30%, #060607 30%, #060607 50%, transparent 50%)'
+        'leftAnimatedGradient': 'linear-gradient(55deg,transparent 30%, #141517 30%, #141517 50%, transparent 50%)',
+      },
+      backgroundBlendMode: {
+        'multiply': 'multiply',
       },
       colors: {
         baseGray: '#141517',

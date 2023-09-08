@@ -16,7 +16,7 @@ export default function Home() {
     <div className="w-[100vw] h-[100vh] pt-16 pb-16 pl-16 pr-16 bg-gradient-to-tr from-baseGray to-black overflow-hidden">
       <div className="flex items-center w-full h-full bg-gradient-to-tr from-black to-baseGray overflow-hidden">
         <div
-          className={`w-full h-full bg-leftAnimatedGradient ${
+          className={`w-full h-full bg-leftAnimatedGradient  ${
             animation ? "translate-y-0" : "translate-y-full"
           } duration-300 ease-in-out`}
         ></div>
