@@ -17,7 +17,7 @@ function ProjectCard({ bgImg, techStack, desc, title, link }) {
         </div>
         <div className="flex-grow bg-baseGray rounded-bl-lg rounded-br-lg p-1 shadow-customBoxShadow">
           <Link href={`/projects/${link}`}>
-          <h1 className="text-2xl text-white font-semibold italic mt-1">
+          <h1 className="text-2xl text-white font-rubik italic mt-1">
             {title}
           </h1>
           </Link>

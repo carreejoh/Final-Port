@@ -11,10 +11,10 @@ function About() {
         </div> */}
         <div className="w-full pl-60 pr-60">
           {/* <h1 className="text-2xl">About Me:</h1> */}
-          <h1 className="mt-6 text-4xl">About Me</h1>
+          <h1 className="mt-6 text-4xl font-rubik border-b-2 border-neonGreen w-44">About Me</h1>
           <p className="text-sm mt-6 text-gray-400">Myself:</p>
-          <div className="w-full flex mt-1 ml-2 justify-between">
-            <p className="w-[80%]">
+          <div className="w-[80%] flex mt-1 ml-2">
+            <p className="w-[75%]">
               Innovative Web Developer specializing in crafting robust,
               seamless, and dynamic user interfaces. With a deep-rooted passion
               for technology and a keen eye for modern design trends, I excel at
@@ -24,13 +24,13 @@ function About() {
               only satisfy client expectations but also elevate the user
               experience to new heights.
             </p>
-            <div className="h-36 w-36 overflow-hidden relative">
+            <div className="h-40 w-[20%] overflow-hidden relative">
               <img src="/images/profilepic.jpg" className="absolute bottom-0" />
             </div>
           </div>
           <p className="text-sm mt-6 text-gray-400">Schooling:</p>
-          <div className="w-full mt-1 ml-2">
-            <p className="w-[60%]">
+          <div className="w-[80%] mt-1 ml-2">
+            <p className="">
               I initially discovered coding when I was at the University of Utah
               pursuing a Mechanical Engineering degree. My love of software
               development and coding exploded, and I transferred majors into
@@ -46,9 +46,9 @@ function About() {
               </button>
             </Link>
           </div>
-          <p className="text-4xl mt-6 text-white">Skills</p>
+          <p className="text-4xl mt-6 text-white font-rubik border-b-2 border-neonGreen w-[8%]">Skills</p>
           <div className="p-2 mt-2 bg-baseGray w-[60%] rounded-lg">
-            <p className="text-lg text-white italic">Tools & Practices:</p>
+            <p className="text-xl text-white italic font-mono">Tools & Practices:</p>
             <h1 className="text-md ml-2 mt-1 text-white">
               I have a thorough understanding of
               <span className="text-blue-500"> agile development</span> and
@@ -70,7 +70,7 @@ function About() {
           </div>
           <div className="p-2 mt-2 bg-baseGray w-[60%] rounded-lg">
 
-            <p className="text-lg text-white italic">Front-End:</p>
+            <p className="text-xl text-white italic font-mono">Front-End:</p>
             <p className="text-sm mt-2 ml-2 text-gray-400">My best work:</p>
             <Link href="/projects/crusaders">
               <p className="text-lg mt-1 ml-4 text-blue-500">
@@ -82,17 +82,17 @@ function About() {
               <LanguageTile
                 name={"HTML5"}
                 bgColor={"#000000"}
-                textColor={"#ffffff"}
+                textColor={"#82D907"}
               />
               <LanguageTile
                 name={"CSS3"}
                 bgColor={"#000000"}
-                textColor={"#ffffff"}
+                textColor={"#82D907"}
               />
               <LanguageTile
                 name={"JavaScript"}
                 bgColor={"#000000"}
-                textColor={"#ffffff"}
+                textColor={"#82D907"}
               />
             </div>
             <p className="text-sm mt-2 ml-2 text-gray-400">
@@ -133,7 +133,7 @@ function About() {
           </div>
           <div className="p-2 mt-2 bg-baseGray w-[60%] rounded-lg">
 
-          <p className="text-lg text-white italic">Back-End:</p>
+          <p className="text-xl text-white italic font-mono">Back-End:</p>
           <p className="text-sm mt-2 ml-2 text-gray-400">My best work:</p>
           <Link href="/projects/techblog">
             <p className="text-lg mt-1 ml-4 text-blue-500">Tech Blog</p>

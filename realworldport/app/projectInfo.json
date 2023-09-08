@@ -1,12 +1,14 @@
 [
   {
     "title": "Code Spot",
-    "motto": "My complete MERN project",
+    "motto": "My personal MERN project",
     "status": false,
     "desc": "Code Spot is an online code editor which allows users to create and share code. Users can test their code online thanks to the ACE IDE, and instantly see the results in the output. Code Spot also allows users to create posts showcasing their code, aswell as a description of what it does. This code can then be viewed in an editor of it's own which allows other users to experience and test their code.",
     "contribution": "I created all of Code Spot to solidify my MongoDB and JS skills, as well as try new technologies and libraries like ACE IDE. I'm currently transitioning the entire project from vanilla JS and Handlebars.js into React.",
     "techstack": ["React", "Tailwind", "Mongo", "Mongoose", "Express", "Node", "Next"],
-    "pictures": ["/images/codelounge.png", "/images/codelounge.png"]
+    "pictures": ["/images/codelounge.png", "/images/codelounge.png"],
+    "oldLink": "https://github.com/carreejoh/16-schedule",
+    "newLink": "https://github.com/carreejoh/code-social"
   },
   {
     "title": "Tyrs Vault",
@@ -22,7 +24,8 @@
       "Express",
       "Node"
     ],
-    "pictures": ["/images/tyrsvault.png", "/images/tyrsvaultsecond.png"]
+    "pictures": ["/images/tyrsvault.png", "/images/tyrsvaultsecond.png"],
+    "link": "https://tyrs-vault.herokuapp.com/login"
   },
   {
     "title": "Tech Blog",
@@ -38,22 +41,39 @@
       "Express",
       "Node"
     ],
-    "pictures": ["/images/techblog.png", "/images/techblogsecond.png"]
+    "pictures": ["/images/techblog.png", "/images/techblogsecond.png"],
+    "link": "https://carree-tech-blog-806f7c387358.herokuapp.com/"
   },
   {
     "title": "My Portfolio",
-    "motto": "My first collaborative project",
+    "motto": "Fifth times the charm",
     "status": true,
-    "desc": "Tyr's Vault is a gaming hub designed to allow users to showcase their games, add friends, and discover new titles.",
-    "contribution": "I was responsible for designing and creating the UI, aswell as choosing the entire ",
+    "desc": "A way to get my name out there, and employers viewing my projects.",
+    "contribution": "After many iterations as I learned and developed new skills I've finally made a portfolio I love. Having complete control over the style and direction of a website can be frusterating when it never feels up to your standards, but I believe I found the perfect balance of color pallete and aesthetics and love how it turned out.",
     "techstack": [
-      "JavaScript",
-      "Fomantic",
-      "MySQL",
-      "Sequelize",
-      "Express",
-      "Node"
+      "React",
+      "Tailwind",
+      "Next"
     ],
-    "pictures": ["/images/tyrsvault.png", "/images/tyrsvaultsecond.png"]
+    "pictures": ["/images/tyrsvault.png", "/images/tyrsvaultsecond.png"],
+    "link": "/"
+  },
+  {
+    "title": "Crusaders",
+    "motto": "Mastering React and Tailwind CSS",
+    "status": true,
+    "desc": "Crusaders is a gorgeous social media website designed with user experience in mind. The site works on both desktop and mobile, and is not only intuitive and simplistic, but also blazingly fast. Users can post pictures, comment on posts, like posts, and follow other users. Next.js dynamic routing, server-side rendering, and GraphQL queries allows for near instant navigation between pages, even with data being moved frequently. Tailor the site to your liking with light mode and dark mode, and have the site remember your preference. This website is the pinnacle of website design and modern web technologies, and can be enjoyed by anyone.",
+    "contribution": "My contribution to this site was designing the UI and UX, creating a majority of React components, and working with my teammates to make data integration as smooth as possible. This site was my first experience with Next.js and Tailwind CSS, and through trial and error I learned these two vital technologies and have never looked back. Of all the projects I've completed Crusaders is not only the most complex, but also the best in terms of development practices, visual appeal, and user experience.",
+    "techstack": [
+      "React",
+      "Tailwind",
+      "Mongo",
+      "Mongoose",
+      "GraphQL",
+      "Node",
+      "Next"
+    ],
+    "pictures": ["/images/crusadersSocial.png", "/images/crusadersSocialSecond.png"],
+    "link": "https://crusaders-media-e9469ade02da.herokuapp.com/"
   }
 ]

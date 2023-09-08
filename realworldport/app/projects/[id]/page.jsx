@@ -20,6 +20,9 @@ function ProjectPage({ params }) {
     if (params.id === "portfolio") {
       setProject(projectData[3]);
     }
+    if (params.id === "crusaders") {
+      setProject(projectData[4]);
+    }
   }, [params.id]);
 
   useEffect(() => {
@@ -29,29 +32,95 @@ function ProjectPage({ params }) {
   return (
     <div className="w-[100vw] h-[100vh] pt-16 pb-16 pl-16 pr-16 bg-gradient-to-tr from-baseGray to-black overflow-y-hidden">
       <div className="w-full h-full bg-gradient-to-tr from-black to-baseGray overflow-y-scroll">
-        <div className="w-full h-20 flex pr-56 pl-36 pt-10 items-center">
-          <Link href="/projects">
-            <button className="w-12 hover:translate-x-[-6px] duration-100">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                strokeWidth={1.5}
-                stroke="currentColor"
-                className="w-12 h-12"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  d="M15.75 19.5L8.25 12l7.5-7.5"
-                />
-              </svg>
-            </button>
-          </Link>
-          <h1 className="text-4xl ml-12">{project?.title}</h1>
+        <div className="w-full h-20 pr-56 pl-36 pt-10 items-center flex justify-between">
+          <div className="flex">
+            <Link href="/projects">
+              <button className="w-12 hover:translate-x-[-6px] duration-100 fixed">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  strokeWidth={1.5}
+                  stroke="currentColor"
+                  className="w-12 h-12"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M15.75 19.5L8.25 12l7.5-7.5"
+                  />
+                </svg>
+              </button>
+            </Link>
+            <div>
+              <h1 className="text-4xl ml-24 font-rubik">{project?.title}</h1>
+              <h1 className="italic text-lg ml-24">"{project?.motto}"</h1>
+            </div>
+          </div>
+          {params?.id === "codespot" ? (
+            <div className="flex">
+              <Link href={`${project?.oldLink}`}>
+              <button className="flex items-center justify-center p-2 rounded-md bg-yellow-500 hover:scale-95 duration-100">
+                <h1 className="h-6 text-black">Old Version</h1>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  strokeWidth={1.5}
+                  stroke="black"
+                  className="w-5 h-5 transform rotate-[-40deg] ml-2 mb-1"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M6 12L3.269 3.126A59.768 59.768 0 0121.485 12 59.77 59.77 0 013.27 20.876L5.999 12zm0 0h7.5"
+                  />
+                </svg>
+              </button>
+            </Link>
+            <Link href={`${project?.newLink}`}>
+              <button className="flex items-center justify-center p-2 rounded-md bg-yellow-500 hover:scale-95 duration-100 ml-3">
+                <h1 className="h-6 text-black">React Version</h1>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  strokeWidth={1.5}
+                  stroke="black"
+                  className="w-5 h-5 transform rotate-[-40deg] ml-2 mb-1"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M6 12L3.269 3.126A59.768 59.768 0 0121.485 12 59.77 59.77 0 013.27 20.876L5.999 12zm0 0h7.5"
+                  />
+                </svg>
+              </button>
+            </Link>
+              </div>
+          ) : (
+            <Link href={`${project?.link}`}>
+              <button className="flex items-center justify-center rounded-md p-2 bg-mainBlue hover:scale-95 duration-100">
+                <h1 className="h-6">Check it out</h1>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  strokeWidth={1.5}
+                  stroke="currentColor"
+                  className="w-5 h-5 transform rotate-[-40deg] ml-2 mb-1"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M6 12L3.269 3.126A59.768 59.768 0 0121.485 12 59.77 59.77 0 013.27 20.876L5.999 12zm0 0h7.5"
+                  />
+                </svg>
+              </button>
+            </Link>
+          )}
         </div>
-        <div className="h-full pt-1 pb-2 pr-60 pl-60 mb-5">
-          <h1 className="italic text-lg">"{project?.motto}"</h1>
+        <div className="h-full pt-4 pb-2 pr-60 pl-60 mb-5">
           {project?.status === false ? (
             <div className=" mt-6">
               <h1 className="text-sm text-gray-400">Completion:</h1>
@@ -123,12 +192,12 @@ function ProjectPage({ params }) {
           <div className="ml-2 mr-72">
             <img
               className="mt-1 border-2 border-black"
-              style={{ filter: "brightness(60%)" }}
+              style={{ filter: "brightness(80%)" }}
               src={project?.pictures[0]}
             ></img>
             <img
               className="mt-8 border-2 border-black"
-              style={{ filter: "brightness(60%)" }}
+              style={{ filter: "brightness(80%)" }}
               src={project?.pictures[1]}
             ></img>
           </div>

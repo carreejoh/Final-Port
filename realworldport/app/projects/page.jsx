@@ -1,5 +1,6 @@
 "use client";
 import ProjectCard from "../components/projectCard";
+import Link from "next/link";
 
 function Projects() {
   return (
@@ -8,53 +9,46 @@ function Projects() {
         <div className="grid grid-cols-12 gap-4 h-full pt-2 pb-2 pr-60 pl-60 mb-5">
           {/* Featured Project */}
           <div className="col-span-12 mt-6">
-            <h1 className="text-xl text-white">Featured Project:</h1>
+            <h1 className="text-xl text-white font-rubik border-b-[1px] border-neonGreen w-[170px]">
+              Featured Project:
+            </h1>
           </div>
           <div className="col-span-12 h-96 flex justify-between bg-baseGray rounded-lg overflow-hidden shadow-purpleBoxShadow">
             <div className="w-[50%] flex-col justify-between">
               <div className="p-2">
-                <a className="italic font-semibold text-4xl cursor-pointer text-white">
-                  Crusaders
-                </a>
-                <p className="mt-4">Crusaders is a social media app blah blah blah Crusaders is a social media Crusaders is a social media app blah blah blah</p>
+                <Link href="/projects/crusaders">
+                  <h1 className="italic text-4xl cursor-pointer text-white font-rubik">
+                    Crusaders
+                  </h1>
+                </Link>
+                <p className="mt-4">
+                  My third collaborative effort and most recently released project. Find and follow your friends, share your pictures with the world, and explore what Crusaders has to offer!
+                </p>
                 <div className="flex mt-4">
-                <img src="/react.svg" className="mr-2 h-8 w-8"></img>
-                <img src="/tailwindcss.svg" className="mr-2 h-8 w-8"></img>
-                <img src="/mongodb.svg" className="mr-2 h-8 w-8"></img>
-                <img src="/mongoose.svg" className="mr-2 h-8 w-8"></img>
-                <img src="/graphql.svg" className="mr-2 h-8 w-8"></img>
-                <img src="/nodedotjs.svg" className="mr-2 h-8 w-8"></img>
-                <img src="/nextdotjs.svg" className="mr-2 h-8 w-8"></img>
+                  <img src="/react.svg" className="mr-2 h-8 w-8"></img>
+                  <img src="/tailwindcss.svg" className="mr-2 h-8 w-8"></img>
+                  <img src="/mongodb.svg" className="mr-2 h-8 w-8"></img>
+                  <img src="/mongoose.svg" className="mr-2 h-8 w-8"></img>
+                  <img src="/graphql.svg" className="mr-2 h-8 w-8"></img>
+                  <img src="/nodedotjs.svg" className="mr-2 h-8 w-8"></img>
+                  <img src="/nextdotjs.svg" className="mr-2 h-8 w-8"></img>
                 </div>
               </div>
-              <button className="bottom-0 flex p-2">
-                Check It Out
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  strokeWidth={1.5}
-                  stroke="currentColor"
-                  className="w-6 h-6"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M6 12L3.269 3.126A59.768 59.768 0 0121.485 12 59.77 59.77 0 013.27 20.876L5.999 12zm0 0h7.5"
-                  />
-                </svg>
-              </button>
             </div>
             <div className="h-96">
-              <img
-                src="/images/crusadersSocial.png"
-                className="h-96 rounded-lg overflow-hidden bg-center hover:scale-105 duration-100"
-                alt="Background"
-              ></img>
+              <Link href="/projects/crusaders">
+                <img
+                  src="/images/crusadersSocial.png"
+                  className="h-96 rounded-lg overflow-hidden bg-center hover:scale-105 duration-100"
+                  alt="Background"
+                ></img>
+              </Link>
             </div>
           </div>
           <div className="col-span-12 mt-6">
-            <h1 className="text-xl text-white">Other Projects:</h1>
+            <h1 className="text-xl text-white font-rubik border-b-[1px] border-neonGreen w-[146px]">
+              Other Projects:
+            </h1>
           </div>
           <div className="col-span-4 ">
             <ProjectCard
@@ -71,7 +65,7 @@ function Projects() {
                 "Mongoose",
                 "Express",
                 "Node",
-                "Next"
+                "Next",
               ]}
             />
           </div>
@@ -122,9 +116,7 @@ function Projects() {
               techStack={["React", "Tailwind", "Next"]}
             />
           </div>
-          <div className="col-span-12 h-12">
-              
-          </div>
+          <div className="col-span-12 h-12"></div>
         </div>
       </div>
     </div>

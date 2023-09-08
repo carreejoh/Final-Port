@@ -15,14 +15,15 @@ module.exports = {
       colors: {
         baseGray: '#141517',
         baseShade: '#060607',
-        darkPurple: '#0E001C',
-        lightPurple: '#B863FE',
-        darkBlue: '#07002B',
-        lightBlue: '#300476'
+        mainBlue: '#1D4ED8',
+        neonGreen: '#82D907'
       },
       boxShadow: {
         purpleBoxShadow: '0px 6px 5px -2px rgba(120,120,120,.4)',
         customBoxShadow: '0px 4px 5px -2px rgba(120,120,120,.4)'
+      },
+      fontFamily: {
+        'rubik': ['Rubik', 'sans-serif']
       }
     },
   },
