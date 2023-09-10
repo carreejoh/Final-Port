@@ -3,19 +3,20 @@ import Link from "next/link";
 import { useState, useEffect } from "react";
 
 function Header() {
-  // useEffect(() => {
-  //   setActive('home')
-  // }, [])
-
+  
   const [active, setActive] = useState("home");
 
   return (
     <div className="fixed z-50 h-16 w-[100vw] top-0 right-0 left-0 bg-transparent">
       <div className="w-full h-full flex justify-between pt-4 pl-20 pr-20 items-center">
-        <a className="text-white  border-b-2 border-neonGreen font-rubik text-2xl hover:text-neonGreen cursor-pointer">
-          {/* <Link href="/">&lt;Carreejoh/&gt;</Link> */}
-          <Link href="/">Carreejoh</Link>
-        </a>
+        <Link href="/">
+          <h1
+            onClick={() => setActive("home")}
+            className="text-white  border-b-2 border-neonGreen font-rubik text-2xl hover:text-neonGreen cursor-pointer"
+          >
+            Carreejoh
+          </h1>
+        </Link>
         <div className="flex">
           <Link href="/">
             <h1
@@ -25,7 +26,9 @@ function Header() {
                   ? "border-neonGreen text-neonGreen"
                   : "border-transparent text-white"
               }`}
-            >Home</h1>
+            >
+              Home
+            </h1>
           </Link>
 
           <Link href="/about">
@@ -36,7 +39,9 @@ function Header() {
                   ? "border-neonGreen text-neonGreen"
                   : "border-transparent text-white"
               }`}
-            >About</h1>
+            >
+              About
+            </h1>
           </Link>
 
           <Link href="/projects">

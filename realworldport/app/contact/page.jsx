@@ -88,10 +88,10 @@ function Contact() {
               <input
                 type="text"
                 className="w-full text-black rounded-md p-1"
-                placeholder="your email"
+                placeholder="email summary"
               ></input>
               <h1 className="text-md text-white mt-2">Body</h1>
-              <textarea className="w-full rounded-md text-black p-1 h-40 max-h-64 min-h-20" maxLength="500" placeholder="email content">
+              <textarea className="w-full rounded-md text-black p-1 h-40 max-h-64 min-h-20" maxLength="500" placeholder="email content, 500 max chars">
 
               </textarea>
               <button type="submit" className="p-2 bg-mainBlue rounded-md mt-2 hover:scale-95">
