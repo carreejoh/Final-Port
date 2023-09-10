@@ -32,8 +32,8 @@ export default function Home() {
               Welcome to my portfolio!
             </h1>
             <p className="text-white mt-2">
-              I'm an ambitious web developer from Salt Lake City specializing in
-              all things JavaScript, React.js, and Node.js. I'd love a chance to
+              I&apos;m an ambitious web developer from Salt Lake City specializing in
+              all things JavaScript, React.js, and Node.js. I&apos;d love a chance to
               join your team and build something great!
             </p>
           </div>

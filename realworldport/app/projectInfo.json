@@ -1,10 +1,10 @@
 [
   {
-    "title": "Code Spot",
+    "title": "Code Spot ",
     "motto": "My personal MERN project",
     "status": false,
-    "desc": "Code Spot is an online code editor which allows users to create and share code. Users can test their code online thanks to the ACE IDE, and instantly see the results in the output. Code Spot also allows users to create posts showcasing their code, aswell as a description of what it does. This code can then be viewed in an editor of it's own which allows other users to experience and test their code.",
-    "contribution": "I created all of Code Spot to solidify my MongoDB and JS skills, as well as try new technologies and libraries like ACE IDE. I'm currently moving the entire project from vanilla JS and Handlebars.js into React. Although the site is currently down, I plan to have it launched asap, and believe it'll better showcase my React and Mongo skills.",
+    "desc": "Code Spot is an online code editor which allows users to create and share code. Users can test their code online thanks to the ACE IDE, and instantly see the results in the output. Code Spot also allows users to create posts showcasing their code, aswell as a description of what it does. This code can then be viewed in an editor of it&apos;s own which allows other users to experience and test their code.",
+    "contribution": "I created all of Code Spot to solidify my MongoDB and JS skills, as well as try new technologies and libraries like ACE IDE. I&apos;m currently moving the entire project from vanilla JS and Handlebars.js into React. Although the site is currently down, I plan to have it launched asap, and believe it&apos;ll better showcase my React and Mongo skills.",
     "techstack": ["React", "Tailwind", "Mongo", "Mongoose", "Express", "Node", "Next"],
     "pictures": ["/images/codelounge.png", "/images/codelounge.png"],
     "oldLink": "https://github.com/carreejoh/16-schedule",
@@ -14,8 +14,8 @@
     "title": "Tyrs Vault",
     "motto": "My first collaborative project",
     "status": true,
-    "desc": "Tyr's Vault is a gaming hub designed to allow users to showcase their games, add friends, and discover new titles. Third party APIs' provide game related data, images, and powers the search function. Adding your favorite games is very simple, and is displayed on the friends page for all users to see. Make an account and explore what Tyr's Vault has to offer!",
-    "contribution": "This project was my first major collaborative effort, and I was responsible for the entire front-end. I decided to use Fomantic UI for the CSS framework, as it was easy to use, had pre-built components, and looked good. I was also responsible for creating the REST api's that would show the relevent data, and creating the JS logic to handle different events. ",
+    "desc": "Tyr&apos;s Vault is a gaming hub designed to allow users to showcase their games, add friends, and discover new titles. Third party APIs&apos; provide game related data, images, and powers the search function. Adding your favorite games is very simple, and is displayed on the friends page for all users to see. Make an account and explore what Tyr&apos;s Vault has to offer!",
+    "contribution": "This project was my first major collaborative effort, and I was responsible for the entire front-end. I decided to use Fomantic UI for the CSS framework, as it was easy to use, had pre-built components, and looked good. I was also responsible for creating the REST api&apos;s that would show the relevent data, and creating the JS logic to handle different events. ",
     "techstack": [
       "JavaScript",
       "Fomantic",
@@ -49,7 +49,7 @@
     "motto": "Fifth times the charm",
     "status": true,
     "desc": "A way for me to consolidate all of my work, and showcase my web developer skills. ",
-    "contribution": "After many iterations as I learned and developed new skills I've finally made a portfolio I love. Having complete control over the style and direction of a website can be frusterating when it never quite lives up to your standards, but I believe I found the perfect balance of color pallete and aesthetics and love how it turned out.",
+    "contribution": "After many iterations as I learned and developed new skills I&apos;ve finally made a portfolio I love. Having complete control over the style and direction of a website can be frusterating when it never quite lives up to your standards, but I believe I found the perfect balance of color pallete and aesthetics and love how it turned out.",
     "techstack": [
       "React",
       "Tailwind",
@@ -63,7 +63,7 @@
     "motto": "Mastering React and Tailwind CSS",
     "status": true,
     "desc": "Crusaders is a gorgeous social media website designed with user experience in mind. The site works on both desktop and mobile, and is not only intuitive and simplistic, but also blazingly fast. Users can post pictures, comment on posts, like posts, and follow other users. Next.js dynamic routing, server-side rendering, and GraphQL queries allows for near instant navigation between pages, even with data being moved frequently. Tailor the site to your liking with light mode and dark mode, and have the site remember your preference. This website is the pinnacle of website design and modern web technologies, and can be enjoyed by anyone.",
-    "contribution": "My contribution to this site was designing the UI and UX, creating a majority of React components, and working with my teammates to make data integration as smooth as possible. This site was my first experience with Next.js and Tailwind CSS, and through trial and error I learned these two vital technologies and have never looked back. Of all the projects I've completed Crusaders is not only the most complex, but also the best in terms of development practices, visual appeal, and user experience.",
+    "contribution": "My contribution to this site was designing the UI and UX, creating a majority of React components, and working with my teammates to make data integration as smooth as possible. This site was my first experience with Next.js and Tailwind CSS, and through trial and error I learned these two vital technologies and have never looked back. Of all the projects I&apos;ve completed Crusaders is not only the most complex, but also the best in terms of development practices, visual appeal, and user experience.",
     "techstack": [
       "React",
       "Tailwind",

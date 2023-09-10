@@ -54,7 +54,7 @@ function ProjectPage({ params }) {
             </Link>
             <div>
               <h1 className="text-4xl ml-24 font-rubik">{project?.title}</h1>
-              <h1 className="italic text-lg ml-24">"{project?.motto}"</h1>
+              <h1 className="italic text-lg ml-24">&#34;{project?.motto}&#34;</h1>
             </div>
           </div>
           {params?.id === "codespot" ? (

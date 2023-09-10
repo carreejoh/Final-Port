@@ -30,9 +30,9 @@ function About() {
               and intuitive user interfaces. I excel at working with teams to
               turn complex ideas into full stack web applications. React.js and
               Node.js are my bread and butter, and I absolutely love the
-              satisfaction of learning and implementing new technologies. I'd
+              satisfaction of learning and implementing new technologies. I&apos;d
               love a chance to work with your team, and know I could make a
-              meaningful impact. If I'm not working on a personal project you
+              meaningful impact. If I&apos;m not working on a personal project you
               can find me exploring the beautiful Utah landscape, snowboarding
               with friends, or playing video games.
             </p>
@@ -73,7 +73,7 @@ function About() {
                 object-oriented programming
               </span>
               , aswell as an eye for{" "}
-              <span className="text-blue-500"> UI/UX design</span>. I've become
+              <span className="text-blue-500"> UI/UX design</span>. I&apos;ve become
               familiar with <span className="text-blue-500"> Git</span>,
               <span className="text-blue-500"> version control</span>, and have
               deployed sites to <span className="text-blue-500"> Heroku</span>.
