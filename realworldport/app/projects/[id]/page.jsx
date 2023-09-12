@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react";
 import projectData from "../../projectInfo.json";
 import Link from "next/link";
+import Image from "next/image";
 
 function ProjectPage({ params }) {
   const [project, setProject] = useState();
@@ -137,49 +138,49 @@ function ProjectPage({ params }) {
             {project?.techstack.map((tech) => (
               <div key={tech} className="mr-2">
                 {tech === "JavaScript" && (
-                  <img src="/javascript.svg" className="h-8 w-8"></img>
+                  <Image width={30} height={30} alt="Technology Picture" src="/javascript.svg"></Image>
                 )}
                 {tech === "HTML" && (
-                  <img src="/html5.svg" className="h-8 w-8"></img>
+                  <Image width={30} height={30} alt="Technology Picture" src="/html5.svg"></Image>
                 )}
                 {tech === "CSS" && (
-                  <img src="/css3.svg" className="h-8 w-8"></img>
+                  <Image width={8} height={8} alt="Technology Picture" src="/css3.svg"></Image>
                 )}
                 {tech === "React" && (
-                  <img src="/react.svg" className="h-8 w-8"></img>
+                  <Image width={30} height={30} alt="Technology Picture" src="/react.svg"></Image>
                 )}
                 {tech === "MySQL" && (
-                  <img src="/mysql.svg" className="h-8 w-8"></img>
+                  <Image width={30} height={30} alt="Technology Picture" src="/mysql.svg"></Image>
                 )}
                 {tech === "Sequelize" && (
-                  <img src="/sequelize.svg" className="h-8 w-8"></img>
+                  <Image width={30} height={30} alt="Technology Picture" src="/sequelize.svg"></Image>
                 )}
                 {tech === "Mongo" && (
-                  <img src="/mongodb.svg" className="h-8 w-8"></img>
+                  <Image width={30} height={30} alt="Technology Picture" src="/mongodb.svg"></Image>
                 )}
                 {tech === "Mongoose" && (
-                  <img src="/mongoose.svg" className="h-8 w-8"></img>
+                  <Image width={30} height={30} alt="Technology Picture" src="/mongoose.svg"></Image>
                 )}
                 {tech === "Express" && (
-                  <img src="/express.svg" className="h-8 w-8"></img>
+                  <Image width={30} height={30} alt="Technology Picture" src="/express.svg"></Image>
                 )}
                 {tech === "Node" && (
-                  <img src="/nodedotjs.svg" className="h-8 w-8"></img>
+                  <Image width={30} height={30} alt="Technology Picture" src="/nodedotjs.svg"></Image>
                 )}
                 {tech === "GraphQL" && (
-                  <img src="/graphql.svg" className="h-8 w-8"></img>
+                  <Image width={30} height={30} alt="Technology Picture" src="/graphql.svg"></Image>
                 )}
                 {tech === "Next" && (
-                  <img
+                  <Image width={30} height={30} alt="Technology Picture"
                     src="/nextdotjs.svg"
                     className="h-8 w-8 bg-gray-500 rounded-sm"
-                  ></img>
+                  ></Image>
                 )}
                 {tech === "Tailwind" && (
-                  <img src="/tailwindcss.svg" className="h-8 w-8"></img>
+                  <Image width={30} height={30} alt="Technology Picture" src="/tailwindcss.svg"></Image>
                 )}
                 {tech === "Fomantic" && (
-                  <img src="/fomanticLogo.png" className="h-8 w-8"></img>
+                  <Image width={30} height={30} alt="Technology Picture" src="/fomanticLogo.png"></Image>
                 )}
               </div>
             ))}

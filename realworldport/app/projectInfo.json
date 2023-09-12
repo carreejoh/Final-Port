@@ -6,7 +6,7 @@
     "desc": "Code Spot is an online code editor which allows users to create and share code. Users can test their code online thanks to the ACE IDE, and instantly see the results in the output. Code Spot also allows users to create posts showcasing their code, aswell as a description of what it does. This code can then be viewed in an editor of it&apos;s own which allows other users to experience and test their code.",
     "contribution": "I created all of Code Spot to solidify my MongoDB and JS skills, as well as try new technologies and libraries like ACE IDE. I&apos;m currently moving the entire project from vanilla JS and Handlebars.js into React. Although the site is currently down, I plan to have it launched asap, and believe it&apos;ll better showcase my React and Mongo skills.",
     "techstack": ["React", "Tailwind", "Mongo", "Mongoose", "Express", "Node", "Next"],
-    "pictures": ["/images/codelounge.png", "/images/codelounge.png"],
+    "pictures": ["https://upcdn.io/FW25bUs/raw/uploads/2023/09/12/newCodeSocialScreenshot-4oen.png", "https://upcdn.io/FW25bUs/raw/uploads/2023/08/27/codelounge-6HCj.PNG"],
     "oldLink": "https://github.com/carreejoh/16-schedule",
     "newLink": "https://github.com/carreejoh/code-social"
   },
@@ -55,7 +55,7 @@
       "Tailwind",
       "Next"
     ],
-    "pictures": ["/images/tyrsvault.png", "/images/tyrsvaultsecond.png"],
+    "pictures": ["/images/portfolioScreenshot.png", "https://upcdn.io/FW25bUs/raw/uploads/2023/09/12/newestPortfolioScreenshot-5Qsq.PNG"],
     "link": "/"
   },
   {

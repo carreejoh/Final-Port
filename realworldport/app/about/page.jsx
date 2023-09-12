@@ -17,15 +17,6 @@ function About() {
           <p className="text-sm mt-6 text-gray-400">Myself:</p>
           <div className="w-[80%] flex mt-1 ml-2">
             <p className="w-[75%]">
-              {/* Innovative Web Developer specializing in crafting robust,
-              seamless, and dynamic user interfaces. With a deep-rooted passion
-              for technology and a keen eye for modern design trends, I excel at
-              transforming complex ideas into intuitive, user-friendly web
-              solutions. Leveraging proficiency in various programming languages
-              and frameworks, I am committed to delivering projects that not
-              only satisfy client expectations but also elevate the user
-              experience to new heights. */}
-              {/* Innovative web developer specializing in creating gorgeous user interfaces, fast Node.js servers, and well-rounded projects. I have a passion for learning new  */}
               Innovative web developer specializing in creating gorgeous, fast,
               and intuitive user interfaces. I excel at working with teams to
               turn complex ideas into full stack web applications. React.js and
@@ -62,7 +53,7 @@ function About() {
             Skills
           </p>
           <div className="p-2 mt-2 bg-baseGray w-[60%] rounded-lg">
-            <p className="text-xl text-white italic font-mono">
+            <p className="text-lg text-white font-rubik">
               Tools & Practices:
             </p>
             <h1 className="text-md ml-2 mt-1 text-white">
@@ -85,7 +76,7 @@ function About() {
             </h1>
           </div>
           <div className="p-2 mt-2 bg-baseGray w-[60%] rounded-lg">
-            <p className="text-xl text-white italic font-mono">Front-End:</p>
+            <p className="text-lg text-white font-rubik">Front-End:</p>
             <p className="text-sm mt-2 ml-2 text-gray-400">My best work:</p>
             <Link href="/projects/crusaders">
               <p className="text-lg mt-1 ml-4 text-blue-500">
@@ -147,7 +138,7 @@ function About() {
             </div>
           </div>
           <div className="p-2 mt-2 bg-baseGray w-[60%] rounded-lg">
-            <p className="text-xl text-white italic font-mono">Back-End:</p>
+            <p className="text-lg text-white font-rubik">Back-End:</p>
             <p className="text-sm mt-2 ml-2 text-gray-400">My best work:</p>
             <Link href="/projects/techblog">
               <p className="text-lg mt-1 ml-4 text-blue-500">Tech Blog</p>

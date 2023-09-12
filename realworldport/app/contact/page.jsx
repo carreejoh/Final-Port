@@ -11,7 +11,7 @@ function Contact() {
           </h1>
           <h1 className="text-sm text-gray-400 mt-8">Social:</h1>
           <div className="flex ml-2">
-            <Link href="#">
+            <Link href="https://github.com/carreejoh">
               <div className="flex justify-start">
                 <h1 className="text-xl">Github</h1>
                 <a className="text-white mr-3 hover:text-blue-500 cursor-pointer ml-1">
@@ -25,7 +25,7 @@ function Contact() {
                 </a>
               </div>
             </Link>
-            <Link href="#">
+            <Link href="https://www.linkedin.com/in/carter-johnson-080318266/">
               <div className="ml-2 flex justify-start">
                 <h1 className="text-xl">LinkedIn</h1>
                 <a className="text-white mr-3 hover:text-blue-500 cursor-pointer ml-1">
@@ -39,7 +39,7 @@ function Contact() {
                 </a>
               </div>
             </Link>
-            <Link href="#">
+            {/* <Link href="#">
               <div className="ml-2 flex justify-start">
                 <h1 className="text-xl">Discord</h1>
                 <a className="text-white mr-3 hover:text-blue-500 cursor-pointer ml-1">
@@ -52,11 +52,11 @@ function Contact() {
                   />
                 </a>
               </div>
-            </Link>
-            <Link href="#">
+            </Link> */}
+            <Link href="https://www.linkedin.com/in/carter-johnson-080318266/overlay/contact-info/">
               <div className="ml-2 flex justify-start">
                 <h1 className="text-xl">Text Me</h1>
-                <a className="text-white mr-3 hover:text-blue-500 cursor-pointer">
+                <a className="text-white mr-3 cursor-pointer">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
