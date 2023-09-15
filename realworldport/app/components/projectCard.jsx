@@ -59,7 +59,7 @@ function ProjectCard({ bgImg, techStack, desc, title, link }) {
                   <img src="/graphql.svg" className="h-6 w-6"></img>
                 )}
                 {tech === "Next" && (
-                  <img src="/nextdotjs.svg" className="h-6 w-6"></img>
+                  <img src="/nextdotjs.svg" className="h-6 w-6 bg-gray-500 rounded-sm"></img>
                 )}
                 {tech === "Tailwind" && (
                   <img src="/tailwindcss.svg" className="h-6 w-6"></img>

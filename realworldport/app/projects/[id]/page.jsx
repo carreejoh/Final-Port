@@ -55,7 +55,7 @@ function ProjectPage({ params }) {
             </Link>
             <div>
               <h1 className="text-4xl ml-24 font-rubik">{project?.title}</h1>
-              <h1 className="italic text-lg ml-24">&#34;{project?.motto}&#34;</h1>
+              <h1 className="italic text-lg ml-24">{project?.motto}</h1>
             </div>
           </div>
           {params?.id === "codespot" ? (
@@ -123,17 +123,17 @@ function ProjectPage({ params }) {
         </div>
         <div className="h-full pt-4 pb-2 pr-60 pl-60 mb-5">
           {project?.status === false ? (
-            <div className=" mt-6">
-              <h1 className="text-sm text-gray-400">Completion:</h1>
+            <div className=" mt-4">
+              <h1 className="text-sm text-gray-400">Status:</h1>
               <h1 className="text-sm text-yellow-500 ml-2">Work in progress</h1>
             </div>
           ) : (
-            <div className=" mt-6">
-              <h1 className="text-sm text-gray-400">Completion:</h1>
+            <div className=" mt-4">
+              <h1 className="text-sm text-gray-400">Status:</h1>
               <h1 className="text-sm text-green-500 ml-2">Complete</h1>
             </div>
           )}
-          <p className="text-sm mt-6 text-gray-400">Tech Stack:</p>
+          <p className="text-sm mt-4 text-gray-400">Tech Stack:</p>
           <div className="flex mt-1 ml-2">
             {project?.techstack.map((tech) => (
               <div key={tech} className="mr-2">
@@ -185,12 +185,12 @@ function ProjectPage({ params }) {
               </div>
             ))}
           </div>
-          <p className="text-sm mt-6 text-gray-400">Description:</p>
+          <p className="text-sm mt-4 text-gray-400">Description:</p>
           <p className="text-md ml-2">{project?.desc}</p>
-          <p className="text-sm mt-6 text-gray-400">My Contribution:</p>
+          <p className="text-sm mt-4 text-gray-400">My Contribution:</p>
           <p className="text-md ml-2">{project?.contribution}</p>
-          <p className="text-sm mt-6 text-gray-400">Pictures:</p>
-          <div className="ml-2 mr-72">
+          {/* <p className="text-sm mt-4 text-gray-400">Pictures:</p> */}
+          <div className="mr-72 mt-6 ">
             <img
               className="mt-1 border-2 border-black"
               style={{ filter: "brightness(80%)" }}

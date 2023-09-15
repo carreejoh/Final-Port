@@ -6,11 +6,10 @@ function Contact() {
     <div className="w-[100vw] h-[100vh] pt-16 pb-16 pl-16 pr-16 bg-gradient-to-tr from-baseGray to-black">
       <div className="flex w-full h-full bg-gradient-to-tr from-black to-baseGray">
         <div className="w-full pr-60 pl-60 mt-6 pt-4">
-          <h1 className="text-4xl font-rubik border-b-2 border-neonGreen w-[210px]">
-            Contact Me:
+          <h1 className="text-4xl font-rubik border-b-2 border-neonGreen w-[200px]">
+            Contact Me
           </h1>
-          <h1 className="text-sm text-gray-400 mt-8">Social:</h1>
-          <div className="flex ml-2">
+          <div className="flex mt-6">
             <Link href="https://github.com/carreejoh">
               <div className="flex justify-start">
                 <h1 className="text-xl">Github</h1>
@@ -78,20 +77,20 @@ function Contact() {
           <h1 className="text-sm text-gray-400 mt-6">Email Form:</h1>
           <div className="w-[40%] p-2 mt-1 bg-baseGray rounded-lg">
             <form>
-              <h1 className="text-md text-white">Email</h1>
+              <h1 className="text-md text-white">Address</h1>
               <input
                 type="text"
                 className="w-full text-black rounded-md p-1"
-                placeholder="your email"
+                placeholder="your email address"
               ></input>
               <h1 className="text-md text-white mt-2">Subject</h1>
               <input
                 type="text"
                 className="w-full text-black rounded-md p-1"
-                placeholder="email summary"
+                placeholder=""
               ></input>
               <h1 className="text-md text-white mt-2">Body</h1>
-              <textarea className="w-full rounded-md text-black p-1 h-40 max-h-64 min-h-20" maxLength="500" placeholder="email content, 500 max chars">
+              <textarea className="w-full rounded-md text-black p-1 h-40 max-h-64 min-h-20" maxLength="5000" placeholder="5000 max chars">
 
               </textarea>
               <button type="submit" className="p-2 bg-mainBlue rounded-md mt-2 hover:scale-95">

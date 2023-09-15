@@ -28,13 +28,13 @@ export default function Home() {
         <div className="w-full pr-72 pl-40 z-40 fixed flex justify-between items-center">
           <div className="w-[50%]">
             <h1 className="text-white text-[60px] leading-[62px] font-rubik">
-              Hello There! <br />
-              Welcome to my portfolio!
+              {/* Hello There! <br /> */}
+              Welcome to my portfolio! <br />
+              I'm glad you're here.
             </h1>
             <p className="text-white mt-2">
               I&apos;m an ambitious web developer from Salt Lake City specializing in
-              all things JavaScript, React.js, and Node.js. I&apos;d love a chance to
-              join your team and build something great!
+              all things JavaScript, React.js, and Node.js. Let&apos;s build something great!
             </p>
           </div>
           <div>

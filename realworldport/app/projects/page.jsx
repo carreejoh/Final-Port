@@ -9,11 +9,11 @@ function Projects() {
         <div className="grid grid-cols-12 gap-4 h-full pt-2 pb-2 pr-60 pl-60 mb-5">
           {/* Featured Project */}
           <div className="col-span-12 mt-6">
-            <h1 className="text-xl text-white font-rubik border-b-[1px] border-neonGreen w-[170px]">
-              Featured Project:
+            <h1 className="text-4xl text-white font-rubik border-b-2 border-neonGreen w-36">
+              Projects
             </h1>
           </div>
-          <div className="col-span-12 h-96 flex justify-between bg-baseGray rounded-lg overflow-hidden shadow-purpleBoxShadow">
+          <div className="col-span-12 h-96 flex justify-between bg-baseGray rounded-lg overflow-hidden shadow-customBoxShadow">
             <div className="w-[50%] flex-col justify-between">
               <div className="p-2">
                 <Link href="/projects/crusaders">
@@ -31,7 +31,7 @@ function Projects() {
                   <img src="/mongoose.svg" className="mr-2 h-8 w-8"></img>
                   <img src="/graphql.svg" className="mr-2 h-8 w-8"></img>
                   <img src="/nodedotjs.svg" className="mr-2 h-8 w-8"></img>
-                  <img src="/nextdotjs.svg" className="mr-2 h-8 w-8"></img>
+                  <img src="/nextdotjs.svg" className="mr-2 h-8 w-8 bg-gray-500 rounded-sm"></img>
                 </div>
               </div>
             </div>
@@ -45,12 +45,12 @@ function Projects() {
               </Link>
             </div>
           </div>
-          <div className="col-span-12 mt-6">
+          {/* <div className="col-span-12 mt-6">
             <h1 className="text-xl text-white font-rubik border-b-[1px] border-neonGreen w-[146px]">
               Other Projects:
             </h1>
-          </div>
-          <div className="col-span-4 ">
+          </div> */}
+          <div className="col-span-4 mt-2">
             <ProjectCard
               title="Code Spot"
               link="codespot"
@@ -69,7 +69,7 @@ function Projects() {
               ]}
             />
           </div>
-          <div className="col-span-4">
+          <div className="col-span-4 mt-2">
             <ProjectCard
               title="Tyr's Vault"
               link="tyrsvault"
@@ -87,7 +87,7 @@ function Projects() {
               ]}
             />
           </div>
-          <div className="col-span-4">
+          <div className="col-span-4 mt-2">
             <ProjectCard
               title="Tech Blog"
               link="techblog"
@@ -105,7 +105,7 @@ function Projects() {
               ]}
             />
           </div>
-          <div className="col-span-4">
+          {/* <div className="col-span-4">
             <ProjectCard
               title="Portfolio"
               link="portfolio"
@@ -115,7 +115,7 @@ function Projects() {
               }
               techStack={["React", "Tailwind", "Next"]}
             />
-          </div>
+          </div> */}
           <div className="col-span-12 h-12"></div>
         </div>
       </div>
