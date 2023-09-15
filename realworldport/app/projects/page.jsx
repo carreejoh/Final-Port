@@ -22,7 +22,7 @@ function Projects() {
                   </h1>
                 </Link>
                 <p className="mt-4">
-                  My third collaborative effort and favorite front-end project. Find and follow your friends, share your pictures with the world, and explore what Crusaders has to offer!
+                  A social media site built for photos. Find and follow your friends, share special moments, and explore the page on mobile.
                 </p>
                 <div className="flex mt-4">
                   <img src="/react.svg" className="mr-2 h-8 w-8"></img>
@@ -56,7 +56,7 @@ function Projects() {
               link="codespot"
               bgImg={"/images/codelounge.png"}
               desc={
-                "Effortlessly develop code, share code, and explore javascript ideas all while online."
+                "Effortlessly develop code, share your work, and explore javascript ideas all while online."
               }
               techStack={[
                 "React",
@@ -93,7 +93,7 @@ function Projects() {
               link="techblog"
               bgImg={"/images/techblog.png"}
               desc={
-                "A site for sharing coding related topics. One of my first full stack projects."
+                "A site for sharing coding related topics."
               }
               techStack={[
                 "JavaScript",
