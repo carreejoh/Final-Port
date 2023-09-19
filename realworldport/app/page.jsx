@@ -30,7 +30,7 @@ export default function Home() {
             <h1 className="text-white text-[60px] leading-[62px] font-rubik">
               {/* Hello There! <br /> */}
               Welcome to my portfolio! <br />
-              I'm glad you're here.
+              I&apos;m glad you&apos;re here.
             </h1>
             <p className="text-white mt-2">
               I&apos;m an ambitious web developer from Salt Lake City specializing in

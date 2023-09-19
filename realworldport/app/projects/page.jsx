@@ -4,16 +4,16 @@ import Link from "next/link";
 
 function Projects() {
   return (
-    <div className="w-[100vw] h-[100vh] pt-16 pb-16 pl-16 pr-16 bg-gradient-to-tr from-baseGray to-black overflow-y-hidden">
-      <div className="w-full h-full bg-gradient-to-tr from-black to-baseGray overflow-y-scroll">
-        <div className="grid grid-cols-12 gap-4 h-full pt-2 pb-2 pr-60 pl-60 mb-5">
+    <div className="w-[100vw] h-[100vh] pt-20 md:pt-16 md:pb-16 md:pl-16 md:pr-16 bg-gradient-to-tr from-baseGray to-black overflow-y-hidden">
+      <div className="w-full h-full bg-baseShade md:bg-gradient-to-tr from-black to-baseGray overflow-y-scroll">
+        <div className="grid grid-cols-12 gap-4 h-full pt-2 pb-2 md:pr-60 md:pl-60 mb-5 md:p-0 p-4">
           {/* Featured Project */}
           <div className="col-span-12 mt-6">
             <h1 className="text-4xl text-white font-rubik border-b-2 border-neonGreen w-36">
               Projects
             </h1>
           </div>
-          <div className="col-span-12 h-96 flex justify-between bg-baseGray rounded-lg overflow-hidden shadow-customBoxShadow">
+          <div className="hidden col-span-12 h-96 md:flex justify-between bg-baseGray rounded-lg overflow-hidden shadow-customBoxShadow">
             <div className="w-[50%] flex-col justify-between">
               <div className="p-2">
                 <Link href="/projects/crusaders">
@@ -50,7 +50,26 @@ function Projects() {
               Other Projects:
             </h1>
           </div> */}
-          <div className="col-span-4 mt-2">
+          <div className="col-span-12 md:hidden mt-2">
+            <ProjectCard
+              title="Crusaders"
+              link="codespot"
+              bgImg={"/images/crusadersSocial.png"}
+              desc={
+                "A social media site built for photos. Find and follow your friends, share special moments, and explore the page on mobile."
+              }
+              techStack={[
+                "React",
+                "Tailwind",
+                "Mongo",
+                "Mongoose",
+                "Express",
+                "Node",
+                "Next",
+              ]}
+            />
+          </div>
+          <div className="col-span-12 md:col-span-4 mt-2">
             <ProjectCard
               title="Code Spot"
               link="codespot"
@@ -69,7 +88,7 @@ function Projects() {
               ]}
             />
           </div>
-          <div className="col-span-4 mt-2">
+          <div className="col-span-12 md:col-span-4 mt-2">
             <ProjectCard
               title="Tyr's Vault"
               link="tyrsvault"
@@ -87,7 +106,7 @@ function Projects() {
               ]}
             />
           </div>
-          <div className="col-span-4 mt-2">
+          <div className="col-span-12 md:ol-span-4 mt-2">
             <ProjectCard
               title="Tech Blog"
               link="techblog"

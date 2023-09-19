@@ -31,10 +31,10 @@ function ProjectPage({ params }) {
   }, [project]);
 
   return (
-    <div className="w-[100vw] h-[100vh] pt-16 pb-16 pl-16 pr-16 bg-gradient-to-tr from-baseGray to-black overflow-y-hidden">
+    <div className="w-[100vw] h-[100vh] pt-24 md:pt-16 md:pb-16 md:pl-16 md:pr-16 bg-gradient-to-tr from-baseGray to-black overflow-y-hidden">
       <div className="w-full h-full bg-gradient-to-tr from-black to-baseGray overflow-y-scroll">
-        <div className="w-full h-20 pr-56 pl-36 pt-10 items-center flex justify-between">
-          <div className="flex">
+        <div className="w-full h-20 md:pr-56 md:pl-36 pt-10 items-center flex justify-between">
+          <div className="md:flex md:pt-0 pt-4">
             <Link href="/projects">
               <button className="w-12 hover:translate-x-[-6px] duration-100 fixed">
                 <svg
@@ -54,7 +54,7 @@ function ProjectPage({ params }) {
               </button>
             </Link>
             <div>
-              <h1 className="text-4xl ml-24 font-rubik">{project?.title}</h1>
+              <h1 className="text-4xl md:ml-24 font-rubik">{project?.title}</h1>
               <h1 className="italic text-lg ml-24">{project?.motto}</h1>
             </div>
           </div>

@@ -7,21 +7,21 @@ function Header() {
   const [active, setActive] = useState("home");
 
   return (
-    <div className="fixed z-50 h-16 w-[100vw] top-0 right-0 left-0 bg-transparent">
-      <div className="w-full h-full flex justify-between pt-4 pl-20 pr-20 items-center">
+    <div className="fixed z-50 h-24 md:h-16 md:w-[100vw] top-0 right-0 left-0 bg-black md:bg-transparent">
+      <div className="w-full h-full md:flex justify-between pt-4 md:pl-20 md:pr-20 pr-4 pl-4 items-center">
         <Link href="/">
           <h1
             onClick={() => setActive("home")}
-            className="text-white  border-b-2 border-neonGreen font-rubik text-2xl hover:text-neonGreen cursor-pointer"
+            className="text-white md:border-b-2 border-neonGreen font-rubik text-2xl hover:text-neonGreen cursor-pointer"
           >
             Carreejoh
           </h1>
         </Link>
-        <div className="flex">
+        <div className="flex md:mt-0 mt-2">
           <Link href="/">
             <h1
               onClick={() => setActive("home")}
-              className={`font-rubik text-md ml-3 border-b-2 hover:border-neonGreen hover:text-neonGreen duration-100 cursor-pointer ${
+              className={`font-rubik text-md ml-0 md:ml-3 border-b-2 hover:border-neonGreen hover:text-neonGreen duration-100 cursor-pointer ${
                 active === "home"
                   ? "border-neonGreen text-neonGreen"
                   : "border-transparent text-white"

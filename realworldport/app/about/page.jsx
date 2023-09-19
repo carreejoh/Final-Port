@@ -5,23 +5,23 @@ import Image from "next/image";
 
 function About() {
   return (
-    <div className="w-[100vw] h-[100vh] pt-16 pb-16 pl-16 pr-16 bg-gradient-to-tr from-baseGray to-black ">
-      <div className="p-4 w-full h-full bg-gradient-to-tr from-black to-baseGray  overflow-y-scroll">
+    <div className="w-[100vw] h-[100vh] pt-20 md:pt-16 md:pb-16 md:pl-16 md:pr-16 bg-gradient-to-tr from-baseGray to-black ">
+      <div className="p-4 w-full h-full bg-baseShade md:bg-gradient-to-tr from-black to-baseGray  overflow-y-scroll">
         {/* <div className="pt-10 w-full h-72 bg-gray-500 flex">
             <img src="/images/profilepic.jpg" className="h-64"></img>
         </div> */}
-        <div className="w-full pl-60 pr-60">
+        <div className="w-full md:pl-60 md:pr-60">
           {/* <h1 className="text-2xl">About Me:</h1> */}
           <h1 className="mt-6 text-4xl font-rubik border-b-2 border-neonGreen w-[165px]">
             About Me
           </h1>
           {/* <p className="text-sm mt-6 text-gray-400">Myself:</p> */}
-          <div className="w-[80%] mt-6">
+          <div className="md:w-[80%] mt-6">
             {/* <img
               src="/images/profilepicProfessional.jpg"
               className="absolute bottom-0 rounded-lg h-full"
             /> */}
-            <div className="flex p-2 bg-baseGray rounded-lg">
+            <div className="w-full md:flex p-2 bg-baseGray rounded-lg">
               <Image
                 width={180}
                 height={180}
@@ -50,13 +50,13 @@ function About() {
                       d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z"
                     />
                   </svg>
-                  <p className="mt-[1px]">Salt Lake City, UT</p>
+                  <p className="mt-[1px]">Salt Lake City, UT </p>
                 </div>
                 <p className="pt-4">
                   Full stack web developer who turns complex ideas into sleek,
                   fast, intuitive solutions. I thrive in team environments and
                   running solo. React.js and Node.js are my bread and butter,
-                  but I'm also proficient with other technologies.
+                  but I&apos;m also proficient with other technologies.
                 </p>
               </div>
             </div>
@@ -64,7 +64,7 @@ function About() {
           <p className="text-2xl mt-6 text-white font-rubik border-b-2 border-neonGreen w-[62px]">
             Skills
           </p>
-          <div className="p-2 mt-2 bg-baseGray w-[60%] rounded-lg">
+          <div className="p-2 mt-2 bg-baseGray w-full md:w-[60%] rounded-lg">
             <p className="text-lg text-white font-rubik">Tools & Practices:</p>
             <ul>
               <li>&bull; Agile development</li>
@@ -74,7 +74,7 @@ function About() {
               <li>&bull; Heroku</li>
             </ul>
           </div>
-          <div className="p-2 mt-2 bg-baseGray w-[60%] rounded-lg">
+          <div className="p-2 mt-2 bg-baseGray w-full md:w-[60%] rounded-lg">
             <p className="text-lg text-white font-rubik">Front-End</p>
             <p className="text-sm mt-2 ml-2 text-gray-400">
               My best front-end project:
@@ -138,7 +138,7 @@ function About() {
               />
             </div>
           </div>
-          <div className="p-2 mt-2 bg-baseGray w-[60%] rounded-lg">
+          <div className="p-2 mt-2 bg-baseGray w-full md:w-[60%] rounded-lg">
             <p className="text-lg text-white font-rubik">Back-End</p>
             <p className="text-sm mt-2 ml-2 text-gray-400">
               My best back-end project:
@@ -191,7 +191,7 @@ function About() {
           <p className="text-2xl mt-6 text-white font-rubik border-b-2 border-neonGreen w-[118px]">
             Education
           </p>
-          <div className="w-[80%] mt-2">
+          <div className="w-full md:w-[60%] mt-2">
             <p>
               University of Utah Coding Boot Camp. 30 hours/week for 24 weeks. 
             </p>
