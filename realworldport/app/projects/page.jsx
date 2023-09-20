@@ -4,16 +4,16 @@ import Link from "next/link";
 
 function Projects() {
   return (
-    <div className="w-[100vw] h-[100vh] pt-20 md:pt-16 md:pb-16 md:pl-16 md:pr-16 bg-gradient-to-tr from-baseGray to-black overflow-y-hidden">
-      <div className="w-full h-full bg-baseShade md:bg-gradient-to-tr from-black to-baseGray overflow-y-scroll">
-        <div className="grid grid-cols-12 gap-4 h-full pt-2 pb-2 md:pr-60 md:pl-60 mb-5 md:p-0 p-4">
+    <div className="w-[100vw] h-[100vh] pt-48 lg:pt-16 lg:pb-16 lg:pl-16 lg:pr-16 bg-gradient-to-tr from-baseGray to-black overflow-y-hidden">
+      <div className="w-full h-full bg-baseShade lg:bg-gradient-to-tr from-black to-baseGray overflow-y-scroll">
+        <div className="grid grid-cols-12 gap-4 w-full h-full pt-2 pb-2 xl:pr-60 xl:pl-60 mb-5 xl:p-0 p-4">
           {/* Featured Project */}
           <div className="col-span-12 mt-6">
-            <h1 className="text-4xl text-white font-rubik border-b-2 border-neonGreen w-36">
+            <h1 className="lg:text-4xl text-[60px] w-60 leading-[70px] text-white font-rubik border-b-2 border-neonGreen lg:w-36">
               Projects
             </h1>
           </div>
-          <div className="hidden col-span-12 h-96 md:flex justify-between bg-baseGray rounded-lg overflow-hidden shadow-customBoxShadow">
+          <div className="hidden col-span-12 h-96 xl:flex justify-between bg-baseGray rounded-lg overflow-hidden shadow-customBoxShadow">
             <div className="w-[50%] flex-col justify-between">
               <div className="p-2">
                 <Link href="/projects/crusaders">
@@ -50,7 +50,7 @@ function Projects() {
               Other Projects:
             </h1>
           </div> */}
-          <div className="col-span-12 md:hidden mt-2">
+          <div className="col-span-12 lg:col-span-6 xl:hidden mt-2">
             <ProjectCard
               title="Crusaders"
               link="codespot"
@@ -69,7 +69,7 @@ function Projects() {
               ]}
             />
           </div>
-          <div className="col-span-12 md:col-span-4 mt-2">
+          <div className="col-span-12 lg:col-span-6 xl:col-span-4 mt-2">
             <ProjectCard
               title="Code Spot"
               link="codespot"
@@ -88,7 +88,7 @@ function Projects() {
               ]}
             />
           </div>
-          <div className="col-span-12 md:col-span-4 mt-2">
+          <div className="col-span-12 lg:col-span-6 xl:col-span-4 mt-2">
             <ProjectCard
               title="Tyr's Vault"
               link="tyrsvault"
@@ -106,7 +106,7 @@ function Projects() {
               ]}
             />
           </div>
-          <div className="col-span-12 md:ol-span-4 mt-2">
+          <div className="col-span-12 lg:col-span-6 xl:col-span-4 mt-2">
             <ProjectCard
               title="Tech Blog"
               link="techblog"

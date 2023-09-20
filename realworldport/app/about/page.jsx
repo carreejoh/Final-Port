@@ -5,12 +5,12 @@ import Image from "next/image";
 
 function About() {
   return (
-    <div className="w-[100vw] h-[100vh] pt-20 md:pt-16 md:pb-16 md:pl-16 md:pr-16 bg-gradient-to-tr from-baseGray to-black ">
+    <div className="lg:w-[100vw] lg:h-[100vh] pt-20 lg:pt-16 lg:pb-16 lg:pl-16 lg:pr-16 bg-gradient-to-tr from-baseGray to-black ">
       <div className="p-4 w-full h-full bg-baseShade md:bg-gradient-to-tr from-black to-baseGray  overflow-y-scroll">
         {/* <div className="pt-10 w-full h-72 bg-gray-500 flex">
             <img src="/images/profilepic.jpg" className="h-64"></img>
         </div> */}
-        <div className="w-full md:pl-60 md:pr-60">
+        <div className="w-full xl:pl-60 xl:pr-60">
           {/* <h1 className="text-2xl">About Me:</h1> */}
           <h1 className="mt-6 text-4xl font-rubik border-b-2 border-neonGreen w-[165px]">
             About Me
@@ -27,6 +27,7 @@ function About() {
                 height={180}
                 className="rounded-lg"
                 src="/images/profilePic.jpg"
+                alt="Picture of me"
               ></Image>
               <div className="pl-2">
                 <h1 className="text-2xl font-rubik">Carter Johnson</h1>
