@@ -40,7 +40,7 @@ export default function Home() {
           <div>
             <Link href="/about">
               <div className="flex justify-end items-center">
-                <h1 className="sm:text-[20px] lg:text-[35px] xl:text-[50px] italic text-white border-b-2 lg:leading- xl:leading-[44px] border-neonGreen font-rubik mt-6 mb-6 hover:text-neonGreen duration-100 hover:mr-2">About</h1>
+                <h1 className="sm:text-[20px] font-semibold lg:text-[35px] xl:text-[50px] italic text-white border-b-2 lg:leading- xl:leading-[44px] border-neonGreen font-rubik mt-6 mb-6 hover:text-neonGreen duration-100 hover:mr-2">About</h1>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
@@ -59,7 +59,7 @@ export default function Home() {
             </Link>
             <Link href="/about">
             <div className="flex justify-end items-center">
-                <h1 className="sm:text-[20px] lg:text-[35px] xl:text-[50px] italic text-white border-b-2 lg:leading- xl:leading-[44px] border-neonGreen font-rubik mt-6 mb-6 hover:text-neonGreen duration-100 hover:mr-2">Skills</h1>
+                <h1 className="sm:text-[20px] font-semibold lg:text-[35px] xl:text-[50px] italic text-white border-b-2 lg:leading- xl:leading-[44px] border-neonGreen font-rubik mt-6 mb-6 hover:text-neonGreen duration-100 hover:mr-2">Skills</h1>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
@@ -78,7 +78,7 @@ export default function Home() {
             </Link>
             <Link href="/projects">
             <div className="flex justify-end items-center">
-                <h1 className="sm:text-[20px] lg:text-[35px] xl:text-[50px] italic text-white border-b-2 lg:leading- xl:leading-[44px] border-neonGreen font-rubik mt-6 mb-6 hover:text-neonGreen duration-100 hover:mr-2">Projects</h1>
+                <h1 className="sm:text-[20px] font-semibold lg:text-[35px] xl:text-[50px] italic text-white border-b-2 lg:leading- xl:leading-[44px] border-neonGreen font-rubik mt-6 mb-6 hover:text-neonGreen duration-100 hover:mr-2">Projects</h1>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
@@ -97,7 +97,7 @@ export default function Home() {
             </Link>
             <Link href="/contact">
             <div className="flex justify-end items-center">
-                <h1 className="sm:text-[20px] lg:text-[35px] xl:text-[50px] italic text-white border-b-2 lg:leading- xl:leading-[44px] border-neonGreen font-rubik mt-6 mb-6 hover:text-neonGreen duration-100 hover:mr-2">Contact</h1>
+                <h1 className="sm:text-[20px] font-semibold lg:text-[35px] xl:text-[50px] italic text-white border-b-2 lg:leading- xl:leading-[44px] border-neonGreen font-rubik mt-6 mb-6 hover:text-neonGreen duration-100 hover:mr-2">Contact</h1>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"

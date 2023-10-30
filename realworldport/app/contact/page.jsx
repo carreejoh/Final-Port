@@ -4,15 +4,15 @@ import Image from "next/image";
 function Contact() {
   return (
     <div className="w-[100vw] h-[100vh] pt-16 pb-16 pl-16 pr-16 bg-gradient-to-tr from-baseGray to-black">
-      <div className="flex w-full h-full bg-gradient-to-tr from-black to-baseGray">
-        <div className="w-full pr-60 pl-60 mt-6 pt-4">
+      <div className="flex w-full h-full bg-gradient-to-tr from-black to-baseGray xl:overflow-y-hidden overflow-y-scroll">
+        <div className="w-full pr-4 pl-4 xl:pr-60 xl:pl-60 mt-6 pt-4">
           <h1 className="text-4xl font-rubik border-b-2 border-neonGreen w-[200px]">
             Contact Me
           </h1>
           <div className="flex mt-6">
             <Link href="https://github.com/carreejoh">
               <div className="flex justify-start">
-                <h1 className="text-xl">Github</h1>
+                <h1 className="text-xl text-white">Github</h1>
                 <a className="text-white mr-3 hover:text-blue-500 cursor-pointer ml-1">
                   <Image
                     src="/github.svg"
@@ -26,7 +26,7 @@ function Contact() {
             </Link>
             <Link href="https://www.linkedin.com/in/carter-johnson-080318266/">
               <div className="ml-2 flex justify-start">
-                <h1 className="text-xl">LinkedIn</h1>
+                <h1 className="text-xl text-white">LinkedIn</h1>
                 <a className="text-white mr-3 hover:text-blue-500 cursor-pointer ml-1">
                   <Image
                     src="/linkedin.svg"
@@ -54,7 +54,7 @@ function Contact() {
             </Link> */}
             <Link href="https://www.linkedin.com/in/carter-johnson-080318266/overlay/contact-info/">
               <div className="ml-2 flex justify-start">
-                <h1 className="text-xl">Text Me</h1>
+                <h1 className="text-xl text-white">Text Me</h1>
                 <a className="text-white mr-3 cursor-pointer">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -75,7 +75,7 @@ function Contact() {
             </Link>
           </div>
           <h1 className="text-sm text-gray-400 mt-6">Email Form:</h1>
-          <div className="w-[40%] p-2 mt-1 bg-baseGray rounded-lg">
+          <div className="w-[70%] xl:w-[40%] mb-4 p-2 mt-1 bg-baseGray rounded-lg">
             <form>
               <h1 className="text-md text-white">Address</h1>
               <input
@@ -97,6 +97,9 @@ function Contact() {
                 Submit
               </button>
             </form>
+          </div>
+          <div className="h-4">
+
           </div>
         </div>
       </div>

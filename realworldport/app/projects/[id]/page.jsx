@@ -9,7 +9,7 @@ function ProjectPage({ params }) {
   const [project, setProject] = useState();
 
   useEffect(() => {
-    if (params.id === "codespot") {
+    if (params.id === "routine") {
       setProject(projectData[0]);
     }
     if (params.id === "tyrsvault") {
@@ -178,6 +178,9 @@ function ProjectPage({ params }) {
                 )}
                 {tech === "Tailwind" && (
                   <Image width={30} height={30} alt="Technology Picture" src="/tailwindcss.svg"></Image>
+                )}
+                {tech === "Redux" && (
+                  <Image width={30} height={30} alt="Technology Picture" className="h-8 w-8 bg-gray-500 rounded-sm" src="/redux.svg"></Image>
                 )}
                 {tech === "Fomantic" && (
                   <Image width={30} height={30} alt="Technology Picture" src="/fomanticLogo.png"></Image>

@@ -25,7 +25,7 @@ function Footer() {
               style={{ filter: "brightness(0) invert(1)" }}
             />
           </Link>
-
+{/* 
           <Link href="https://twitter.com/carreejoh6" className="mr-3 hover:scale-95 duration-100">
             <Image
               src="/discord.svg"
@@ -34,7 +34,7 @@ function Footer() {
               height={26}
               style={{ filter: "brightness(0) invert(1)" }}
             />
-          </Link>
+          </Link> */}
         </div>
       </div>
     </div>

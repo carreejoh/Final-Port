@@ -26,7 +26,7 @@ function About() {
                 width={180}
                 height={180}
                 className="rounded-lg"
-                src="/images/profilePic.jpg"
+                src="/images/darkenedProfilePic.png"
                 alt="Picture of me"
               ></Image>
               <div className="pl-2">

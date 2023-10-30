@@ -3,7 +3,6 @@ import Link from "next/link";
 import { useState, useEffect } from "react";
 
 function Header() {
-  
   const [active, setActive] = useState("home");
 
   return (
@@ -12,7 +11,7 @@ function Header() {
         <Link href="/">
           <h1
             onClick={() => setActive("home")}
-            className="text-white lg:border-b-2 border-neonGreen font-rubik text-[70px] lg:text-2xl hover:text-neonGreen cursor-pointer"
+            className="text-white lg:border-b-2 border-neonGreen font-semibold font-rubik text-[70px] lg:text-2xl hover:text-neonGreen cursor-pointer"
           >
             Carreejoh
           </h1>

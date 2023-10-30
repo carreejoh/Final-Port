@@ -5,7 +5,7 @@ import Footer from "./components/footer";
 import { Suspense } from "react";
 import Head from "next/head";
 
-const rubik = Rubik({ subsets: ["latin"], display: 'swap'});
+const rubik = Rubik({ subsets: ["latin"], display: "swap" });
 
 // export const metadata = {
 //   title: 'Create Next App',
@@ -26,6 +26,9 @@ export default function RootLayout({ children }) {
           rel="stylesheet"
         ></link> */}
       <Head>
+      <link rel="preconnect" href="https://fonts.googleapis.com"></link>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin></link>
+<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap" rel="stylesheet"></link>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <body className={rubik.className}>

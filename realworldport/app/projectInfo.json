@@ -1,14 +1,13 @@
 [
   {
-    "title": "Code Spot ",
+    "title": "Routine Scheduler",
     "motto": "My personal MERN project",
-    "status": false,
-    "desc": "An online code editor that allows users to create and share code. Users can test their code here thanks to the ACE IDE, and instantly see their results. Code Spot also allows users to create posts showcasing and describing their work.",
-    "contribution": "I created Code Spot to solidify my MongoDB and JS skills, and to try new technologies like ACE IDE. I'm currently migrating the project from vanilla JS and Handlebars.js into React.",
-    "techstack": ["React", "Tailwind", "Mongo", "Mongoose", "Express", "Node", "Next"],
-    "pictures": ["https://upcdn.io/FW25bUs/raw/uploads/2023/09/12/newCodeSocialScreenshot-4oen.png", "https://upcdn.io/FW25bUs/raw/uploads/2023/08/27/codelounge-6HCj.PNG"],
-    "oldLink": "https://github.com/carreejoh/16-schedule",
-    "newLink": "https://github.com/carreejoh/code-social"
+    "status": true,
+    "desc": "Routine Scheduler is designed with ease of use and time management in mind. Users can create task blocks to represent 30 minute intervals, and edit these blocks at will. This site also tracks users statistics, showcasing progress and enabling users to track their consistency.",
+    "contribution": "I created Routine Scheduler as a way to better manage my time as I felt no sites had such an emphasis on routines. I was responsible for creating the front-end and server, the UX and UI, and implementing a new technology. ",
+    "techstack": ["React", "Tailwind", "Mongo", "Mongoose", "Express","Redux", "Node", "Next"],
+    "pictures": ["/images/routineAppScreenshot.png", "/images/routineScreenshot.png"],
+    "link": "https://routine-scheduler.vercel.app/"
   },
   {
     "title": "Tyr's Vault",
