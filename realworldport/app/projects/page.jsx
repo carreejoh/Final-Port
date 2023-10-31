@@ -1,4 +1,4 @@
-"use client";
+
 import ProjectCard from "../components/projectCard";
 import Link from "next/link";
 
@@ -22,7 +22,7 @@ function Projects() {
                   </h1>
                 </Link>
                 <p className="mt-4">
-                Routine-Scheduler is my take on a simple, yet effective way to manage time. Users make easy-to-understand "time blocks", of essential and priority events.
+                Routine-Scheduler is my take on a simple, yet effective way to manage time. Users make easy-to-understand &quot;time blocks&quot;, of essential and priority events.
                 </p>
                 <div className="flex mt-4">
                   <img src="/react.svg" className="mr-2 h-8 w-8"></img>
@@ -38,7 +38,7 @@ function Projects() {
             <div className="h-96">
               <Link href="/projects/routine">
                 <img
-                  src="/images/routineAppScreenshot.png"
+                  src="https://drive.google.com/uc?id=1STDUfFmg9hIF8zGDPNO52U9A1DTyampU"
                   className="h-96 rounded-lg overflow-hidden bg-center hover:scale-105 duration-100"
                   alt="Background"
                 ></img>

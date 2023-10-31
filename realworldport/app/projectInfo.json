@@ -6,7 +6,7 @@
     "desc": "Routine Scheduler is designed with ease of use and time management in mind. Users can create task blocks to represent 30 minute intervals, and edit these blocks at will. This site also tracks users statistics, showcasing progress and enabling users to track their consistency.",
     "contribution": "I created Routine Scheduler as a way to better manage my time as I felt no sites had such an emphasis on routines. I was responsible for creating the front-end and server, the UX and UI, and implementing a new technology. ",
     "techstack": ["React", "Tailwind", "Mongo", "Mongoose", "Express","Redux", "Node", "Next"],
-    "pictures": ["/images/routineAppScreenshot.png", "/images/routineScreenshot.png"],
+    "pictures": ["https://drive.google.com/uc?id=1STDUfFmg9hIF8zGDPNO52U9A1DTyampU", "https://drive.google.com/uc?id=1fRyrRTjcICVxJR8OnIvWe6_VbsXYZhSI.png"],
     "link": "https://routine-scheduler.vercel.app/"
   },
   {

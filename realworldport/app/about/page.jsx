@@ -1,4 +1,4 @@
-"use client";
+
 import Link from "next/link";
 import LanguageTile from "../components/languageTile";
 import Image from "next/image";

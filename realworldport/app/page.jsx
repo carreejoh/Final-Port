@@ -33,14 +33,17 @@ export default function Home() {
               I&apos;m glad you&apos;re here.
             </h1>
             <p className="text-white mt-2">
-              I&apos;m an ambitious web developer from Salt Lake City specializing in
-              all things JavaScript, React.js, and Node.js. Let&apos;s build something great!
+              I&apos;m an ambitious web developer from Salt Lake City
+              specializing in all things JavaScript, React.js, and Node.js.
+              Let&apos;s build something great!
             </p>
           </div>
           <div>
             <Link href="/about">
               <div className="flex justify-end items-center">
-                <h1 className="sm:text-[20px] font-semibold lg:text-[35px] xl:text-[50px] italic text-white border-b-2 lg:leading- xl:leading-[44px] border-neonGreen font-rubik mt-6 mb-6 hover:text-neonGreen duration-100 hover:mr-2">About</h1>
+                <h1 className="sm:text-[20px] font-semibold lg:text-[35px] xl:text-[50px] italic text-white border-b-2 lg:leading- xl:leading-[44px] border-neonGreen font-rubik mt-6 mb-6 hover:text-neonGreen duration-100 hover:mr-2">
+                  About
+                </h1>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
@@ -58,8 +61,10 @@ export default function Home() {
               </div>
             </Link>
             <Link href="/about">
-            <div className="flex justify-end items-center">
-                <h1 className="sm:text-[20px] font-semibold lg:text-[35px] xl:text-[50px] italic text-white border-b-2 lg:leading- xl:leading-[44px] border-neonGreen font-rubik mt-6 mb-6 hover:text-neonGreen duration-100 hover:mr-2">Skills</h1>
+              <div className="flex justify-end items-center">
+                <h1 className="sm:text-[20px] font-semibold lg:text-[35px] xl:text-[50px] italic text-white border-b-2 lg:leading- xl:leading-[44px] border-neonGreen font-rubik mt-6 mb-6 hover:text-neonGreen duration-100 hover:mr-2">
+                  Skills
+                </h1>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
@@ -77,8 +82,10 @@ export default function Home() {
               </div>
             </Link>
             <Link href="/projects">
-            <div className="flex justify-end items-center">
-                <h1 className="sm:text-[20px] font-semibold lg:text-[35px] xl:text-[50px] italic text-white border-b-2 lg:leading- xl:leading-[44px] border-neonGreen font-rubik mt-6 mb-6 hover:text-neonGreen duration-100 hover:mr-2">Projects</h1>
+              <div className="flex justify-end items-center">
+                <h1 className="sm:text-[20px] font-semibold lg:text-[35px] xl:text-[50px] italic text-white border-b-2 lg:leading- xl:leading-[44px] border-neonGreen font-rubik mt-6 mb-6 hover:text-neonGreen duration-100 hover:mr-2">
+                  Projects
+                </h1>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
@@ -96,8 +103,10 @@ export default function Home() {
               </div>
             </Link>
             <Link href="/contact">
-            <div className="flex justify-end items-center">
-                <h1 className="sm:text-[20px] font-semibold lg:text-[35px] xl:text-[50px] italic text-white border-b-2 lg:leading- xl:leading-[44px] border-neonGreen font-rubik mt-6 mb-6 hover:text-neonGreen duration-100 hover:mr-2">Contact</h1>
+              <div className="flex justify-end items-center">
+                <h1 className="sm:text-[20px] font-semibold lg:text-[35px] xl:text-[50px] italic text-white border-b-2 lg:leading- xl:leading-[44px] border-neonGreen font-rubik mt-6 mb-6 hover:text-neonGreen duration-100 hover:mr-2">
+                  Contact
+                </h1>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
